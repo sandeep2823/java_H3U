@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test is getting started]]>
+    </line>
+    <line>
+      <![CDATA[Setting done - Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is starting and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[test is about to complete]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-07-04T06:39:11Z" name="Suite" finished-at="2019-07-04T06:39:23Z" duration-ms="11535">
+    <groups>
+    </groups>
+    <test started-at="2019-07-04T06:39:11Z" name="Test" finished-at="2019-07-04T06:39:23Z" duration-ms="11535">
+      <class name="com.h3u.testcases.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.h3u.testcases.LoginTest@50caa560]" started-at="2019-07-04T06:39:10Z" name="setupSuite" finished-at="2019-07-04T06:39:11Z" duration-ms="1616" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test is getting started]]>
+            </line>
+            <line>
+              <![CDATA[Setting done - Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.h3u.testcases.LoginTest@50caa560]" started-at="2019-07-04T06:39:11Z" name="setup" finished-at="2019-07-04T06:39:21Z" duration-ms="9411" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is starting and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp()[pri:0, instance:com.h3u.testcases.LoginTest@50caa560]" started-at="2019-07-04T06:39:21Z" name="loginApp" finished-at="2019-07-04T06:39:22Z" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="tearDownScreenshot(org.testng.ITestResult)[pri:0, instance:com.h3u.testcases.LoginTest@50caa560]" started-at="2019-07-04T06:39:22Z" name="tearDownScreenshot" finished-at="2019-07-04T06:39:23Z" duration-ms="1170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:0, instance:com.h3u.testcases.LoginTest@50caa560] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[test is about to complete]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.h3u.testcases.LoginTest@50caa560]" started-at="2019-07-04T06:39:23Z" name="tearDown" finished-at="2019-07-04T06:39:23Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.h3u.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
